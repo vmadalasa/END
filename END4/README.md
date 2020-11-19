@@ -1,4 +1,4 @@
-### Ref updated sentiment analysis file ###
+# sentiment analysis  #
 source file at https://github.com/bentrevett/pytorch-sentiment-analysis/blob/master/2%20-%20Upgraded%20Sentiment%20Analysis.ipynb
 Modifications made as below.
 
@@ -10,7 +10,7 @@ Modifications made as below.
 4.Madalasa Venkataraman
 
 
-# Change this code in such a way that: #
+### Change this code in such a way that: ###
 
 1. it has 3 LSTM layers
 
@@ -70,7 +70,13 @@ Steps
   5. Used  reverse_text = torch.flip(text, [0])
    and made sure both original and reverse texts were used for training.
   
+  
 
-# Learning# 
+### Learning ###
 
 Ran out of cuda memory due to too many dilations on vocab size
+
+Avg loss
+
+	Train Loss: 0.018 | Train Acc: 99.57%
+	 Val. Loss: 0.583 |  Val. Acc: 87.50%
