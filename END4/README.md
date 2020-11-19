@@ -5,8 +5,11 @@ Modifications made as below.
 *team members*
 
 1. Chiranthan CV
+
 2. Girish Nautiyal
+
 3.Arghya
+
 4.Madalasa Venkataraman
 
 
@@ -70,7 +73,11 @@ Steps
   5. Used  reverse_text = torch.flip(text, [0])
    and made sure both original and reverse texts were used for training.
   
-  
+  6. Torch.size is 
+torch.Size([25002, 100])
+
+7. The model has 6,522,321 trainable parameters
+
 
 ### Learning ###
 
